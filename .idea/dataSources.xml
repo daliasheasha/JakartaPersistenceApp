@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="myDB" uuid="bf0ecdfb-957c-4c94-95e8-0a912ca0ffe7">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:target/myDB;shutdown=true</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <auto-close enable="true" timeout="3" />
+    </data-source>
+  </component>
+</project>

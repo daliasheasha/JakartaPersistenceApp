@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="myDB">
+  <database-model serializer="dbm" dbms="HSQLDB" family-id="HSQLDB" format-version="4.21">
+    <root id="1">
+      <ServerVersion>2.4.0</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="PUBLIC">
+      <Current>1</Current>
+    </database>
+    <schema id="3" parent="2" name="INFORMATION_SCHEMA"/>
+    <schema id="4" parent="2" name="PUBLIC">
+      <Current>1</Current>
+    </schema>
+    <schema id="5" parent="2" name="SYSTEM_LOBS"/>
+    <table id="6" parent="4" name="EMPLOYEE"/>
+    <table id="7" parent="4" name="SEQUENCE"/>
+    <column id="8" parent="6" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|-5s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="9" parent="6" name="FIRSTNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="10" parent="6" name="LASTNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <index id="11" parent="6" name="SYS_IDX_SYS_PK_10096_10097">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="12" parent="6" name="SYS_PK_10096">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="13" parent="7" name="SEQ_NAME">
+      <Position>1</Position>
+      <DataType>VARCHAR(50)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="14" parent="7" name="SEQ_COUNT">
+      <Position>2</Position>
+      <DataType>NUMERIC(38)|2s</DataType>
+    </column>
+    <index id="15" parent="7" name="SYS_IDX_SYS_PK_10092_10093">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>SEQ_NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="16" parent="7" name="SYS_PK_10092">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>SEQ_NAME</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
