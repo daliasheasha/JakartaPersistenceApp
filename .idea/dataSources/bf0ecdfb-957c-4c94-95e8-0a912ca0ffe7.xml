@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="myDB">
-  <database-model serializer="dbm" dbms="HSQLDB" family-id="HSQLDB" format-version="4.21">
+  <database-model serializer="dbm" dbms="HSQLDB" family-id="HSQLDB" format-version="4.20">
     <root id="1">
       <ServerVersion>2.4.0</ServerVersion>
     </root>
@@ -27,12 +27,12 @@
       <Position>3</Position>
       <DataType>VARCHAR(255)|12s</DataType>
     </column>
-    <index id="11" parent="6" name="SYS_IDX_SYS_PK_10096_10097">
+    <index id="11" parent="6" name="SYS_IDX_SYS_PK_10092_10093">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="12" parent="6" name="SYS_PK_10096">
+    <key id="12" parent="6" name="SYS_PK_10092">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
@@ -46,12 +46,12 @@
       <Position>2</Position>
       <DataType>NUMERIC(38)|2s</DataType>
     </column>
-    <index id="15" parent="7" name="SYS_IDX_SYS_PK_10092_10093">
+    <index id="15" parent="7" name="SYS_IDX_SYS_PK_10096_10097">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>SEQ_NAME</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="16" parent="7" name="SYS_PK_10092">
+    <key id="16" parent="7" name="SYS_PK_10096">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>SEQ_NAME</ColNames>
       <Primary>1</Primary>
